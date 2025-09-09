@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    /* Reset and base */
+    * {margin: 0; padding: 0; box-sizing: border-box;}
+    body {
+      font-family: Arial, sans-serif;
+      background: #f8f9fa;
+      color: #333;
+      line-height: 1.6;
+    }
+    h1, h2, h3 {margin-bottom: 15px;}
+
+    /* Header */
+    header {
+      background: #2c3e50;
+      color: #fff;
+      padding: 25px 15px;
+      text-align: center;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 12px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #f1c40f;
+    }
+
+    /* Sections */
+    section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section p {
+      max-width: 700px;
+      margin: auto;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    /* Project showcase */
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .project {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      padding: 15px;
+      text-align: center;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .project:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 12px rgba(0,0,0,0.2);
+    }
+    .project img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+
+    /* Contact */
+    #contact p {
+      text-align: center;
+      margin: 8px 0;
+    }
+    #contact a {
+      color: #2c3e50;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    #contact a:hover {
+      text-decoration: underline;
+    }
+
+    /* Footer */
+    footer {
+      background: #2c3e50;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    footer a {
+      color: #f1c40f;
+      text-decoration: none;
+      margin: 0 5px;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>My Web Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I’m Angelo Cruz, a creative and detail-oriented web designer. 
+    I enjoy building simple, clean, and functional websites that help brands stand out online. 
+    This portfolio highlights some of my work and skills in front-end design.</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <img src="https://via.placeholder.com/300x160" alt="Project 1">
+        <h3>Project One</h3>
+        <p>A responsive website built with HTML and CSS.</p>
+      </div>
+      <div class="project">
+        <img src="https://via.placeholder.com/300x160" alt="Project 2">
+        <h3>Project Two</h3>
+        <p>A clean portfolio layout with modern design elements.</p>
+      </div>
+      <div class="project">
+        <img src="https://via.placeholder.com/300x160" alt="Project 3">
+        <h3>Project Three</h3>
+        <p>A simple business landing page with responsive sections.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:angelo@example.com">angelo@example.com</a></p>
+    <p>Phone: +63 912 345 6789</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Angelo Cruz | All Rights Reserved</p>
+    <p>
+      <a href="#about">About</a> | 
+      <a href="#projects">Projects</a> | 
+      <a href="#contact">Contact</a>
+    </p>
+  </footer>
+</body>
+</htmml>
